@@ -1,0 +1,16 @@
+import ImageSlider from './ImageSlider';
+
+const slides = [
+  { image: 'https://thvnext.bing.com/th/id/OIP.MQOaU6tX8AtO_zP7e8-i6AHaHa?w=157&h=180&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1' },
+  { image: 'data:image/webp;base64,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' },
+  { image: 'https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png' }
+];
+
+export default function App() {
+  return (
+    <div>
+      <h1>이미지 슬라이더</h1>
+      <ImageSlider slides={slides} />
+    </div>
+  );
+}
